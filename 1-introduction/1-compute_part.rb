@@ -4,6 +4,6 @@ class Station
   end
 
   def multiply_part_time_rates(a_part)
-    return Part.new(amount: a_part.amount * rate, date: a_part.date)
+    return Part.new(a_part.amount * rate, a_part.date)
   end
 end

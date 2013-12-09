@@ -1,6 +1,6 @@
 class Part
   def *(a_rate)
-    return Part.new(amount: amount * a_rate, date: date)
+    return Part.new(amount * a_rate, date)
   end
 end
 
