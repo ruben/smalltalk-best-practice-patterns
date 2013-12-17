@@ -10,6 +10,8 @@ class Vector
   end
 
   def each &block
-    elements.each &block
+    @elements.each do |element|
+      yield element
+    end
   end
 end
