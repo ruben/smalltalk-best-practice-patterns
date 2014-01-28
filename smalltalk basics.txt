@@ -1,0 +1,4 @@
+SELECTOR (method name)
+
+A Smalltalk message is a request to an object instance to perform an operation.
+A message expression consists of a receiver, selector (messagename), and potentially some arguments.
