@@ -19,3 +19,6 @@ doc/
 
 #Rubymine
 .idea/
+
+# .DS_Store OSX files
+.DS_Store
