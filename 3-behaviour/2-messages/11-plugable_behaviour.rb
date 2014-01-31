@@ -34,6 +34,6 @@ class Dollar
   end
 end
 
-dollar_list_pane = ListPane.new(:as_dollar_format_string)
+dollar_list_pane = ListPane.new :as_dollar_format_string
 dollar = Dollar.new
-dollar_list_pane.print_element(dollar)
+dollar_list_pane.print_element dollar
