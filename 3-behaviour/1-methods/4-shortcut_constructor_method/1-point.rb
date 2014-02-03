@@ -9,7 +9,11 @@ class Point
 end
 
 class Number
+  #original book example used @
   def at(y)
     return Point.new(self, y)
   end
 end
+
+point = 1.at 2
+puts point
