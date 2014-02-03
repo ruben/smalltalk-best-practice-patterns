@@ -4,6 +4,7 @@
 # Override the class message new to invoke it on all instances.
 
 class Timer
+  # Default value method
   def default_millisecond_period
     1000
   end
