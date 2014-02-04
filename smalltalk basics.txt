@@ -10,3 +10,7 @@ RETURN (^)
 SYMBOL(#)
 
 PERFORM (Equivalent to Ruby send())
+
+DO
+
+do: For each element of the collection do something (Smalltalk: collection do block. Ruby: collection.each do block).
