@@ -1,0 +1,11 @@
+Smalltalk          -> Ruby
+
+FileStream         -> File
+ReadWriteStream    -> IO (or other things that duck type like it)
+Set                -> require 'set', then use the Set class
+Dictionary         -> Hash
+OrderedCollection  -> Array
+SortedCollection      nothing similar (Array?)
+Bag                   nothing similar (Hash?)
+Interval           -> Range
+Array                 Ruby has no fixed-length collection class.
