@@ -7,6 +7,7 @@
 class Klass
   def stream
   end
+
   # The evaluation of stream.gets causes the stream to change, so this is not likely what you mean...
   def read_from_stream
     if stream.gets == a
